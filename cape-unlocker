@@ -1,0 +1,8 @@
+(() => {
+    const capes = document.querySelectorAll('.CharCustomPartWrapper.DisabledCharCustomPartWrapper');
+
+    capes.forEach((element) => {
+        element.classList.remove('DisabledCharCustomPartWrapper');
+        element.classList.add('EnabledCharCustomPartWrapper');
+    });
+})();
